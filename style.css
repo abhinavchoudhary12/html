@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
     
+    
 }
 
 .l1{
@@ -36,6 +37,10 @@
     color: white;
 }
 
+.nav:hover,.l1:hover,.top:hover{
+    background-color: gray;
+
+}
 .img1{
     background-image: url("./images/img1.jpg");
     background-repeat: no-repeat;
@@ -46,6 +51,7 @@
     text-align: center;
     color: whitesmoke;
     width: 100vw;
+    
     
 }
 
@@ -59,6 +65,7 @@
     text-align: center;
     color: whitesmoke;
     
+    
 }
 .footer{
     width: 100vw;
@@ -67,19 +74,36 @@
     padding: 20px;
     text-align: start;
     display: inline-block;
+    overflow: hidden;
 
 }
 
 .top{
-    text-decoration: none;
-    color: white;
     
     border-radius: 10px;
     
-    margin-left: 350px;
+    margin-left: 370px;
     padding: 12px;
     background-color: black;
     
     
+    
+    
 
+}
+
+div span a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (max-width: 60%){
+    .top{
+
+display: block;
+    }
+    .footer{
+        display: block;
+    }
 }
