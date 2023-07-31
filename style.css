@@ -23,6 +23,7 @@
     justify-content: center;
     padding: 20px;
     text-align: end;
+    
 }
 
 .nav{
@@ -35,10 +36,16 @@
     border-radius: 10px;
     background-color: black;
     color: white;
+    position: relative;
+    right:200px;
+    
 }
 
 .nav:hover,.l1:hover,.top:hover{
     background-color: gray;
+    
+    
+    
 
 }
 .img1{
@@ -107,3 +114,4 @@ display: block;
         display: block;
     }
 }
+

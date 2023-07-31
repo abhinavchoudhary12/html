@@ -1,0 +1,82 @@
+div{
+    
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+
+
+
+.one{
+    background: red;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+   
+    
+
+}
+.two{
+    background: greenyellow;
+    animation: move1 10s 2;
+    animation-fill-mode: forwards;
+
+}
+.three{
+    background:blue;
+
+}
+
+
+@keyframes move {
+    20%{
+        transform: translateX(300px);
+        
+    }
+    50%{
+        transform: rotateY(50%);
+        background: rgb(0, 153, 23);
+    
+    }
+    70%{
+        border-radius: 30%;
+    }
+    100%{
+
+        background: brown;
+        transform: rotate(120deg);
+    }
+    
+}
+
+
+
+@keyframes move1 {
+    0%{
+        opacity: 0;
+    }
+
+    20%{
+        transform:translateX(200px);
+        background: rgb(0, 153, 23);
+        opacity: 0.25;
+    
+    }
+    50%{
+        transform:translateX(-100px);
+        background: rgb(0, 13, 223);
+        opacity: 0.5;
+
+    }
+    
+    100%{
+        transform:translateX(0);
+        
+        opacity: 0.3;
+
+        
+        
+    }
+    
+}

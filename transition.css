@@ -1,0 +1,81 @@
+div{
+    
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+
+.one{
+    background: red;
+    transition-property: background,border-radius,transform;
+    transition-duration: 4s;
+    transition-delay: 1s;
+
+}
+.two{
+    background: greenyellow;
+    transition:all 4s 1s;
+
+}
+.three{
+    background:blue;
+    transition: all 5s ease-in-out 1s;
+    z-index: 2;
+
+}
+.four{
+    background:black;
+    
+    position: absolute;
+    top:0%;
+    left:0%;
+    transition: all 5s 1s;
+   
+
+}
+.five{
+    background: yellow;
+    position: absolute;
+    top:0%;
+    left:0%;
+    transition: all 5s 1s;
+   
+}
+
+.relative{
+    position: relative;
+    z-index: -1;
+}
+.one:hover{
+    background: purple;
+    border-radius:50%;
+    transform: translateX(100px);
+    transition-timing-function: ease-in;
+    
+}
+
+.two:hover{
+    background-color: seagreen;
+    transform: translateX(200px);
+    border-radius: 50%;
+    transition-timing-function: linear;
+
+}
+
+.four:hover{
+    top:0%;
+    left:0%;
+    
+}
+
+.five:hover{
+    top:20%;
+    left:20%;
+    
+}
+
+
+.three:hover{
+    transform: translateY(100px);
+    
+}
