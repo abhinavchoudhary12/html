@@ -1,0 +1,8 @@
+ctr + (+ or -) ===  zoom in whole window or zoom out whole window
+ctr + z === undu
+alt + click === selecting multiple element at one time to change at all place
+ctr + / === comments
+alt + up/down === take line upward/downward
+ctr + enter === new line while in between any line
+ctr + L === whole line selection
+ctr +k ctr +f === format selection

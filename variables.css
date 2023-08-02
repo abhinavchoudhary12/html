@@ -1,0 +1,46 @@
+:root{
+    /* these are global variables */
+
+    /* this is css variable */
+    --headingColor:red;
+    --paragraphColor:blue;
+    
+}
+
+.heading{
+    color:var(--headingColor)
+}
+.para{
+color: var(--paragraphColor);
+}
+
+.parent{
+    /* this is local scope variable */
+    --parentColor:yellow;
+}
+
+
+.para1{
+    /* this is working because para1 is sub child of div */
+    color:var(--parentColor)
+}
+
+
+.boxShadow{
+    margin: 20vh;
+    background: blue;
+    padding: 50px;
+    
+    transition: all 0.5s 1s linear;
+
+}
+
+.boxShadow:hover{
+box-shadow: 10px 10px 10px black;
+}
+
+.textShadow{
+               /* x   y    blue    color*/
+    text-shadow: 20px 10px 6px red;
+
+}
